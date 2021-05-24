@@ -24,7 +24,7 @@ using namespace std;
 #define eb emplace_back
 
 const int inf = 0x3f3f3f3f;
-using ll	  = long long;
+using ll = long long;
 
 void run();
 
@@ -49,11 +49,11 @@ void run() {
 		return;
 	}
 	int op = n > 0 ? 1 : -1;
-	n	   = n > 0 ? n : -n;
-	int x  = 0;
+	n = n > 0 ? n : -n;
+	int x = 0;
 	while (n) {
 		int q = n % 10;
-		x	  = x * 10 + q;
+		x = x * 10 + q;
 		n /= 10;
 	}
 	cout << x * op << endl;

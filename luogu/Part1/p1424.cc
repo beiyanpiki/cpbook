@@ -24,7 +24,7 @@ using namespace std;
 #define eb emplace_back
 
 const int inf = 0x3f3f3f3f;
-using ll	  = long long;
+using ll = long long;
 
 void run();
 
@@ -32,7 +32,7 @@ int main() {
 #ifdef LOCAL
 	freopen("in", "r", stdin);
 #endif
-		ElainaMyWife;
+	ElainaMyWife;
 	int T = 1;
 	// cin >> T;
 	while (T--) {

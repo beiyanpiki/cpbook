@@ -24,7 +24,7 @@ using namespace std;
 #define eb emplace_back
 
 const int inf = 0x3f3f3f3f;
-using ll	  = long long;
+using ll = long long;
 
 void run();
 
@@ -45,11 +45,10 @@ void run() {
 	int k;
 	cin >> k;
 	double s = 0;
-	int n	 = 0;
+	int n = 0;
 	while (s - k * 1. <= 0) {
 		++n;
 		s += 1. / (n * 1.);
-		
 	}
 	cout << n << endl;
 }
