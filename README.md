@@ -35,11 +35,11 @@ void run();
 
 int main() {
 #ifdef LOCAL
-	freopen('in', 'r', stdin)
+	freopen("in", "r", stdin);
 #endif
-		ElainaMyWife;
+	ElainaMyWife;
 	int T = 1;
-	cin >> T;
+	// cin >> T;
 	while (T--) {
 		run();
 	}
