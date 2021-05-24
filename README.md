@@ -29,7 +29,7 @@ using namespace std;
 #define eb emplace_back
 
 const int inf = 0x3f3f3f3f;
-using ll	  = long long;
+using ll = long long;
 
 void run();
 
@@ -46,6 +46,6 @@ int main() {
 }
 
 void run() {
-    // Code here
+	// Code here
 }
 ```
