@@ -45,6 +45,8 @@ int main() {
 	}
 }
 
+const int maxn = 1e5 + 5;
+
 void run() {
 	// Code here
 }
