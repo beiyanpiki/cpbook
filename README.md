@@ -23,7 +23,7 @@ using namespace std;
 #define sz(x) ((int)(x).size())
 #define len(x) ((int)(x).length())
 #define all(x) (x).begin(), (x).end()
-#define lla(x) (x).begin(), (x).end()
+#define lla(x) (x).rbegin(), (x).rend()
 #define mp make_pair
 #define pb push_back
 #define eb emplace_back
@@ -35,7 +35,7 @@ void run();
 
 int main() {
 #ifdef LOCAL
-	freopen("in", "r", stdin);
+	// freopen("in", "r", stdin);
 #endif
 	ElainaMyWife;
 	int T = 1;
