@@ -12,7 +12,7 @@ using namespace std;
 	std::ios::sync_with_stdio(false); \
 	cin.tie(nullptr);                 \
 	cout.tie(nullptr);
-#define endl '\n';
+#define endl '\n'
 #define fi first
 #define se second
 #define sz(x) ((int)(x).size())
