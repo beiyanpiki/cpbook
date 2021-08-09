@@ -1,5 +1,11 @@
 # cpbook
 
+## Compile Command
+
+```bash
+g++ {filename} -o {filename_without_ext} -O2 -Wall -DLOCAL -std=c++14
+```
+
 ## Template
 
 ```cpp
